@@ -71,5 +71,5 @@ Durante esta Sprint, aprendi ou aprimorei os conhecimentos que possuia em relaç
 
 # Sprints 
 
-1. [Sprint 1](Sprint%201/README.md)
+1. [Sprint 1](Sprint%201)
 2. ...
