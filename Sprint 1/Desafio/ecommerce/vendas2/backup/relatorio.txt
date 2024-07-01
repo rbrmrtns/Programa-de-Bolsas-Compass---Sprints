@@ -1,0 +1,14 @@
+Data do sistema operacional: 2024/06/30 19:33
+Data do primeiro registro de venda: 01/01/2024
+Data do ultimo registro de venda: 27/03/2024
+Quantidade de itens diferentes vendidos: 43
+id,produto,quantidade,preço,data
+1,blusa,3,49.90,01/01/2024
+2,saia,5,69.90,02/01/2024
+3,coturno,3,200.00,03/01/2024
+4,meia calça,20,25.00,04/01/2024
+5,cinto,10,45.00,05/01/2024
+6,vestido,7,100.00,06/01/2024
+7,shorts,6,50.00,07/01/2024
+8,tênis,4,150.00,08/01/2024
+9,boina,12,60.00,09/01/2024
