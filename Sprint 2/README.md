@@ -9,10 +9,10 @@
 
 # Evidências
 
-1. Diagrama da Etapa 4.1 do Desafio
+1. Diagrama da Etapa 4.1 do Desafio\
 [Diagrama do Modelo Relacional](evidencias/normalizacao.png)
 
-2. Diagrama da Etapa 4.2 do Desafio
+2. Diagrama da Etapa 4.2 do Desafio\
 [Diagrama do Modelo Dimensional](evidencias/modelo_dimensional.png)
 
 
