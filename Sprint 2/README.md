@@ -1,6 +1,6 @@
 # Exercícios
 
-1. Exercícios das Seções 3 e 4 do Curso D&A - PB - AWS - Novo - 2/10\ 
+1. Exercícios das Seções 3 e 4 do Curso D&A - PB - AWS - Novo - 2/10\
 [Exercícios de Programação](exercicios/Exercicios%20de%20Programacao/)
 
 2. Exercícios da Seção 6 do Curso D&A - PB - AWS - Novo - 2/10\
