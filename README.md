@@ -69,7 +69,37 @@ Durante esta Sprint, aprendi ou aprimorei os conhecimentos que possuia em relaç
 * Conceito de gists e como criá-los;
 * Semântica da linguagem de marcação Markdown.
 
+## Sprint 2
+
+* Conceito de um banco;
+* Como configurar um banco de dados;
+* Selecionar colunas de uma tabela com o comando SELECT;
+* Selecionar combinações distintas de resultados de consultas a colunas de tabelas com o comando SELECT DISTINCT;
+* Filtrar linhas de uma tabela de acordo com uma condição com o comando WHERE;
+* Ordenar a seleção de acordo com uma regra definida com o comando ORDER BY;
+* Limitar o número de linhas resultantes de uma consulta com o comando LIMIT;
+* Função dos operadores aritméticos +, -, *, /, ^, %, || em uma consulta;
+* Função dos operadores de comparação =, >, <, >=, <=, <> em uma consulta;
+* Função dos operadores lógicos AND, OR, NOT BETWEEN, IN, LIKE, ILIKE, IS NULL em uma consulta;
+* Uso das funções agregadas COUNT(), SUM(), MIN(), MAX(), AVG();
+* Agrupar registros semelhantes de uma coluna com o comando GROUP BY;
+* Filtrar resultados de funções agregadas com o comando HAVING;
+* Combinar colunas de uma ou mais tabelas com o comando JOIN e suas ramificações;
+* Unir duas ou masi tabelas com o comando UNION;
+* Utilizar subqueries no WHERE, WITH, FROM e SELECT;
+* Converter um dado de uma unidade para outra com os comando :: e CAST;
+* Criar respostas específicas para diferentes condições com o comando CASE WHEN;
+* Preencher campos nulos com o primeiro valor não nulo de uma sequência de valores com o comando COALESCE;
+* Transformar texto com os comandos LOWER(), UPPER(), TRIM(), REPLACE();
+* Manipular datas com os comandos INTERVAL, DATE_TRUNC, EXTRACT, DATEDIFF;
+* Criar funções com o comando CREATE FUNCTION;
+* Criar tabelas com o comando CREATE TABLE;
+* Inserir valores em uma tabela com o comando INSERT INTO;
+* Deletar tabelas com o comando DROP TABLE;
+* Atualizar linhas de uma tabela com o comando UPDATE;
+* Modificar colunas de uma tabela com o comando ALTER TABLE;
+
 # Sprints 
 
 1. [Sprint 1](Sprint%201)
-2. ...
+2. [Sprint 2](Sprint%202)

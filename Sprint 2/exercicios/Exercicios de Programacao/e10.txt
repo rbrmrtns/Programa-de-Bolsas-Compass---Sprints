@@ -1,0 +1,22 @@
+WITH quant_vendas AS (
+	SELECT
+		tbvendas.cdvdd AS cod_vendedor, 
+		tbvendas.cdpro AS cod_produto, 
+		SUM(tbvendas.qtd) AS quantidade,
+		tbvendas.vrunt AS valor_unitario
+	FROM tbvendas
+	JOIN tbvendedor
+		ON tbvendedor.cdvdd = tbvendas.cdvdd 
+	WHERE tbvendas.status = 'Concluído'
+	GROUP BY tbvendas.cdvdd, tbvendas.cdpro 
+)
+
+SELECT
+	tbvendedor.nmvdd AS vendedor,
+	ROUND(SUM(quant_vendas.quantidade * quant_vendas.valor_unitario), 2) AS valor_total_vendas,
+	CAST(PRINTF("%.2f", (SUM(quant_vendas.quantidade * quant_vendas.valor_unitario) * tbvendedor.perccomissao) / 100) AS NUMERIC) AS comissao 
+FROM tbvendedor
+LEFT JOIN quant_vendas
+	ON quant_vendas.cod_vendedor = tbvendedor.cdvdd
+GROUP BY tbvendedor.cdvdd
+ORDER BY comissao DESC

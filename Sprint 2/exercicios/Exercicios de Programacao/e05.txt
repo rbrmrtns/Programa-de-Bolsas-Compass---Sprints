@@ -1,0 +1,10 @@
+SELECT DISTINCT autor.nome 
+FROM livro
+JOIN autor
+	ON autor.codautor = livro.autor
+JOIN editora
+	ON editora.codeditora = livro.editora
+JOIN endereco
+	ON endereco.codendereco = editora.endereco
+WHERE endereco.estado NOT IN ('PARANÁ', 'SANTA CATARINA', 'RIO GRANDE DO SUL')
+ORDER BY autor.nome

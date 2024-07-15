@@ -1,0 +1,7 @@
+SELECT autor.nome
+FROM autor
+LEFT JOIN livro
+	ON livro.autor = autor.codautor
+GROUP BY autor.codautor
+HAVING COUNT(livro.autor) = 0
+ORDER BY autor.nome

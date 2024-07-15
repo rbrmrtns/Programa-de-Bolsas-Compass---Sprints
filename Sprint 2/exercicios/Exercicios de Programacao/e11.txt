@@ -1,0 +1,8 @@
+SELECT
+	cdcli,
+	nmcli,
+	SUM(qtd) * vrunt AS gasto
+FROM tbvendas
+WHERE status = 'Concluído'
+GROUP BY cdcli
+ORDER BY gasto DESC

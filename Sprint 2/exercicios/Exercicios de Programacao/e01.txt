@@ -1,0 +1,4 @@
+SELECT *
+FROM livro
+WHERE STRFTIME('%Y', publicacao) > '2014'
+ORDER BY cod

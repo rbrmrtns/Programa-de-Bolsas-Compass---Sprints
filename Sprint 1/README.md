@@ -11,7 +11,3 @@
 # Certificados
 
 ...
-
-# Desafio
-
-...

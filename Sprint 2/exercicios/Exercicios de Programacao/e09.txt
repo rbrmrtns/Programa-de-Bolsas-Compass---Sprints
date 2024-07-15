@@ -1,0 +1,17 @@
+WITH quant_vendas AS (
+	SELECT
+		tbvendas.cdpro as cod_produto,
+		COUNT(tbvendas.cdpro) as quantidade
+	FROM tbvendas
+	WHERE tbvendas.status = 'Concluído'
+		AND tbvendas.dtven BETWEEN DATE('2014-02-03') AND DATE('2018-02-02')
+	GROUP BY tbvendas.cdpro 
+)
+
+SELECT DISTINCT
+	tbvendas.cdpro,
+	tbvendas.nmpro 
+FROM tbvendas
+LEFT JOIN quant_vendas
+	ON quant_vendas.cod_produto = tbvendas.cdpro 
+WHERE quant_vendas.quantidade = (SELECT MAX(quantidade) FROM quant_vendas)

@@ -1,0 +1,18 @@
+WITH quant_vendas AS (
+	SELECT
+		tbvendedor.cdvdd as cod_vendedor,
+		COUNT(tbvendas.cdvdd) as quantidade
+	FROM tbvendedor
+	LEFT JOIN tbvendas
+		ON tbvendas.cdvdd = tbvendedor.cdvdd
+	WHERE tbvendas.status = 'Concluído'
+	GROUP BY tbvendedor.cdvdd 
+)
+
+SELECT DISTINCT
+	tbvendedor.cdvdd,
+	tbvendedor.nmvdd
+FROM tbvendedor
+LEFT JOIN quant_vendas
+	ON quant_vendas.cod_vendedor = tbvendedor.cdvdd 
+WHERE quant_vendas.quantidade = (SELECT MAX(quantidade) FROM quant_vendas)

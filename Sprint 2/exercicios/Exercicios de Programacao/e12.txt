@@ -1,0 +1,12 @@
+SELECT
+	tbdependente.cddep,
+	tbdependente.nmdep,
+	tbdependente.dtnasc, 
+	ROUND(SUM(tbvendas.qtd * tbvendas.vrunt), 2) AS valor_total_vendas
+FROM tbdependente
+LEFT JOIN tbvendas
+	ON tbvendas.cdvdd = tbdependente.cdvdd
+WHERE tbvendas.status = 'Concluído'
+GROUP BY tbvendas.cdvdd
+ORDER BY valor_total_vendas
+LIMIT 1
