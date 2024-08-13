@@ -13,7 +13,7 @@ Nesta seção, compartilharei o que aprendi em cada uma das Sprints:
 
 ## Sprint 1
 
-Durante esta Sprint, aprendi ou aprimorei os conhecimentos que possuia em relação aos tópicos abaixo:
+Durante as Sprints abaixo, aprendi ou aprimorei os conhecimentos que possuia em relação aos tópicos a seguir:
 
 ### Linux
 

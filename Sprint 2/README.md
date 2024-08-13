@@ -18,4 +18,5 @@
 
 # Certificados
 
-...
+1. Certificado do Curso AWS Partner: Sales Accreditation (Business)\
+[PDF do Certificado](certificados/13660_3_5918260_1721162315_AWS%20Course%20Completion%20Certificate.pdf)
