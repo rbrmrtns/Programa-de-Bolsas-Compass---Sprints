@@ -1,3 +1,11 @@
+# %%
+
+'''
+Verifique se cada uma das palavras da lista ['maça',
+'arara', 'audio', 'radio', 'radar', 'moto'] é ou não
+um palíndromo.
+'''
+
 palavras = ['maça', 'arara', 'audio', 'radio', 'radar', 'moto']
 
 for i in range(len(palavras)):
@@ -8,8 +16,10 @@ for i in range(len(palavras)):
         
         if palavras[i][j] != palavras[i][-(j + 1)]:
             
-            print('A palavra: ' + palavras[i] + ' não é um palíndromo')
+            print(f'A palavra: {palavras[i]} não é um palíndromo')
             break
             
     else:
-        print('A palavra: ' + palavras[i] + ' é um palíndromo')
+        print(f'A palavra: {palavras[i]} é um palíndromo')
+
+# %%
