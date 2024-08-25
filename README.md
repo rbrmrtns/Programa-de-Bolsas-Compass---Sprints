@@ -19,6 +19,10 @@ Nesta seção, estão os links para o que aprendi em cada uma das Sprints:
 
 [Resumo de Estudos da Sprint 2](Sprint%202/README.md)
 
+## Sprint 2
+
+[Resumo de Estudos da Sprint 3](Sprint%203/README.md)
+
 # Sprints
 
 1. [Sprint 1](Sprint%201)
