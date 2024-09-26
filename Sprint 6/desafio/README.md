@@ -21,7 +21,7 @@ Conteúdo do arquivo de configurações (config):\
 
 A imagem desafio6 é criada a partir da imagem do Python 3, a qual primeiramente atualiza as bibliotecas default do Python 3, define a pasta /app como a pasta de trabalho, copia os arquivos Dockerfile, script.py e os CSVs movies.csv e series.csv para o contêiner, instala a biblioteca boto3 e executa o código presente no arquivo script.py.
 
-O seguinte comando foi utilizado para criar a imagem desafio6:
+O seguinte comando foi utilizado para criar a imagem desafio6:\
 ![Criação Imagem](/Sprint%206/evidencias/comando-criacao-imagem.png)
 
 Já este comando foi utilizado para criar e executar o contêiner desafio6-container, baseado na imagem desafio6. "-v C:/Users/User/.aws:/root/.aws" foi adicionado ao comando para copiar as chaves de acesso ao contêiner, para que ele possa manipular o S3, e "-v csvs_volume:/app/csvs" para que os arquivos CSVs sejam armazenados no volume csvs_volume:
