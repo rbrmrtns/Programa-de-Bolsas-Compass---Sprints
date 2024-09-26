@@ -14,7 +14,7 @@ Para que o boto3 funcione, é preciso definir os credenciais e configurações d
 Conteúdo do arquivo de credenciais (credentials), censurado para a não-exposição de dados sensíveis. É importante frisar que a aws_secret_acess_key é atualizada periodicamente e deve ser alterado no arquivo para que o código possa ser executado:
 ![Arquivo Credentials](/Sprint%206/evidencias/credentials.png)
 
-Conteúdo do arquivo de configurações (config):
+Conteúdo do arquivo de configurações (config):\
 ![Arquivo Config](/Sprint%206/evidencias/config.png)
 
 ## Docker
