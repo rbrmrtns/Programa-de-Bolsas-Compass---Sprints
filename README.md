@@ -5,8 +5,6 @@ Tratando-se de outras experiências que tenho na área, sou formado no curso té
 Em relação a hobbies que acredito que se valha destacar, tenha experiência em redação e tradução, principalmente de jogos, tendo, inclusive, traduzido oficialmente, com o auxílio de meus colegas tradutores, o jogo Ib para o português, o qual é possível conferir clicando no seguinte link: [página do jogo na Steam](https://store.steampowered.com/app/1901370/Ib/).\
 Para que fosse possível traduzir esse e outros jogos, adquiri o nível avançado de domínio sobre a língua inglesa e estou atualmente estudando Japonês.
 
-![Img de Perfil](Link Imagem)
-
 # Resumo dos Estudos
 
 Nesta seção, estão os links para o que aprendi em cada uma das Sprints:
